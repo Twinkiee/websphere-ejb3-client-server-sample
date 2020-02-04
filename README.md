@@ -28,11 +28,11 @@ corbaloc:iiop:localhost:9101
 
 - JNDI name (the remote EJB binding within the remote server. You can get this value from the remote server logs. Eg.
 
-``[04/02/20 11.14.05:743 CET] 00000173 SharedEJBRunt I   WSVR0037I: Starting EJB jar: ejb-remote-ejb.jar
-``[04/02/20 11.14.05:749 CET] 00000173 WASNameSpaceB I   CNTR0167I: The server is binding the wasdev.ejb.api.SampleStatelessBeanRemote interface of the SampleStatelessBeanRemoteImpl enterprise bean in the ejb-remote-ejb.jar module of the ejb-remote-ear application.  The binding location is: ejb/ejb-remote-ear/ejb-remote-ejb.jar/SampleStatelessBeanRemoteImpl#wasdev.ejb.api.SampleStatelessBeanRemote
-``[04/02/20 11.14.05:751 CET] 00000173 WASNameSpaceB I   CNTR0167I: The server is binding the wasdev.ejb.api.SampleStatelessBeanRemote interface of the SampleStatelessBeanRemoteImpl enterprise bean in the ejb-remote-ejb.jar module of the ejb-remote-ear application.  The binding location is: wasdev.ejb.api.SampleStatelessBeanRemote
-``[04/02/20 11.14.05:751 CET] 00000173 AbstractEJBRu I   CNTR0167I: The server is binding the wasdev.ejb.api.SampleStatelessBeanRemote interface of the SampleStatelessBeanRemoteImpl enterprise bean in the ejb-remote-ejb.jar module of the ejb-remote-ear application.  The binding location is: java:global/ejb-remote-ear/ejb-remote-ejb/SampleStatelessBeanRemoteImpl!wasdev.ejb.api.SampleStatelessBeanRemote
-
+`[04/02/20 11.14.05:743 CET] 00000173 SharedEJBRunt I   WSVR0037I: Starting EJB jar: ejb-remote-ejb.jar
+[04/02/20 11.14.05:749 CET] 00000173 WASNameSpaceB I   CNTR0167I: The server is binding the wasdev.ejb.api.SampleStatelessBeanRemote interface of the SampleStatelessBeanRemoteImpl enterprise bean in the ejb-remote-ejb.jar module of the ejb-remote-ear application.  The binding location is: ejb/ejb-remote-ear/ejb-remote-ejb.jar/SampleStatelessBeanRemoteImpl#wasdev.ejb.api.SampleStatelessBeanRemote
+[04/02/20 11.14.05:751 CET] 00000173 WASNameSpaceB I   CNTR0167I: The server is binding the wasdev.ejb.api.SampleStatelessBeanRemote interface of the SampleStatelessBeanRemoteImpl enterprise bean in the ejb-remote-ejb.jar module of the ejb-remote-ear application.  The binding location is: wasdev.ejb.api.SampleStatelessBeanRemote
+[04/02/20 11.14.05:751 CET] 00000173 AbstractEJBRu I   CNTR0167I: The server is binding the wasdev.ejb.api.SampleStatelessBeanRemote interface of the SampleStatelessBeanRemoteImpl enterprise bean in the ejb-remote-ejb.jar module of the ejb-remote-ear application.  The binding location is: java:global/ejb-remote-ear/ejb-remote-ejb/SampleStatelessBeanRemoteImpl!wasdev.ejb.api.SampleStatelessBeanRemote
+`
 
 wasdev.ejb.api.SampleStatelessBeanRemote
 Initial context factory name 
